@@ -17,5 +17,5 @@ mvn -Djava.net.preferIPv4Stack=true -Dexec.mainClass=com.alibaba.dubbo.samples.p
 ## Invoke the service consumer
 
 ```bash
-mvn -Djava.net.preferIPv4Stack=true -Dexec.mainClass=com.alibaba.dubbo.samples.consumer.Application exec:java
+mvn -Djava.net.preferIPv4Stack=true -Dexec.mainClass=com.alibaba.dubbo.samples.consumer.Application-Dexec.mainClass=com.alibaba.dubbo.samples.consumer.Application exec:java
 ```
